@@ -14,8 +14,8 @@ This project is a simple implementation of a webpage using HTML and CSS. It's a 
 Contributing
 Contributions are welcome! If you have any improvements or suggestions, feel free to fork the repository and submit a pull request.
 
-Contributors
-Skanda Prasad - Initial work - [Skanda Prasaad](https://github.com/skanda-prasaad)
+Contributors <tr/>
+Skanda Prasad - Initial work - [Skanda Prasaad](https://github.com/skanda-prasaad) <tr/>
 Prathamesh Prabhu - Contributor - [Prathamesh Prabhu](https://github.com/prabhu543)
 
 
