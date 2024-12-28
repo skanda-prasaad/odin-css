@@ -5,18 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Responsive Header</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/74f5b9facc.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="top">
+    <div class="top" id="Home">
         <header class="navbar">
             <div class="navbar-left">
-                <h1>Header Logo</h1>
+                <img src="logo.png" alt="">
             </div>
             <nav class="navbar-right">
-                <a href="#">Home</a>
-                <a href="#">About</a>
-                <a href="#">Contact</a>
+                <a href="#Home">Home</a>
+                <a href="#About">About</a>
+                <a href="#Contact">Contact</a>
             </nav>
         </header>
         <div class="content">
@@ -30,7 +31,7 @@
             </div>
         </div>
     </div>
-    <div class="main">
+    <div class="main" id="About">
         <div class="midtop">
             <h1>Information</h1>
         </div>
@@ -61,8 +62,28 @@
             <h3>- Sleeping Dogs</h3>
         </div>
     </div>
-    <footer>
+    <div class="contact">
+        <div class="map">
+            <img src="map.jpg" alt="">
+        </div>
+        <div class="info">
+            <h2><i class="fa-solid fa-location-dot"></i> India</h2>
+            <h2><i class="fa-solid fa-phone"></i> +1234567890</h2>
+            <h2><i class="fa-solid fa-envelope"></i> example1@gmail.com</h2>
+        </div>
+        <div class="form">
+            <input type="text" placeholder="Name" required><br>
+            <input type="email" placeholder="Email" required><br>
+            <textarea placeholder="Message" required></textarea><br>
+            <button><i class="fa-solid fa-paper-plane"></i> Send</button>
+        </div>
+    </div>
+    <footer id="Contact">
         <p>Copyright &#169; Sleeping Dogs</p>
     </footer>
+
+
+    <!-- javascript part start from here -->
+    <script src="script.js"></script>
 </body>
 </html>
